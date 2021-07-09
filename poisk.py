@@ -22,3 +22,21 @@ def binarySearch(N, Val):
         print("Элемент найден")
     else:
         print("Элемент не найден")
+
+# Линейный поиск
+
+def len_search():
+    N = 5000
+    ResultOk = False
+    Pos = -1
+    j = 0
+    if j > N and Pos == -1:
+        A[j] == Val
+        Pos = j
+        ResultOk = True
+    else:
+        j = j +1
+    if ResultOk == True:
+        print("Элемент найден")
+    else:
+        print("Элемент не найден")
